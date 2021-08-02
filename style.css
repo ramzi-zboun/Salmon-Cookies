@@ -1,0 +1,11 @@
+  
+*{
+    background-color:#cfae41 ;
+}
+table,tr,th,td{
+    border: 1px solid black;
+border-collapse:collapse ;
+}
+h1{
+    background-color: #cc6125;
+}
