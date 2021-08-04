@@ -1,30 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-
-    <title> Document </title>
+    <title>cookie-stand</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        
-        <h1> Sales</h1>
-        <a href="./indx.html">Home</a>
+    <h1>Salmon cookie sales</h1>
    
-  </header>
+    </header>
+    <main >
+    <h2> Salmon Cookies</h2>
+    <div id="parent">
+        <form id="CookiesForm">
+            <fieldset>
+                <label for="locationName">location Name</label>
+                <input type="text" id="locationName" name="locationName" placeholder="seattle">
+           <br>
+          <br>
+                <label for="min">Minimum Customer</label>
+                <input type="number" id="min" name="min" placeholder="1" value="1" min="0" max="1000">
+        <br>
+    <br>
+                <label for="max">Maximum Customer</label>
+                <input type="number" id="max" name="max" placeholder="1" value="1" min="0" max="5000">
+         <br>
+        <br>
+
+                <label for="avg">Maximum Customer</label>
+                <input type="value" id="avg" name="avg" placeholder="1">
+          <br>
+         <br>
+                <input type="submit" value="submit"> <input type="reset">
+            </fieldset>
+        </form>
+    </div>
     
-  <main>
-        <div id="div1">
-
-        </div>
-        
     </main>
-    <footer></footer>
+    <footer>
 
-
-<script src="script.js"></script>
+    </footer>
+     <script src="script.js"></script>
 </body>
 </html>
